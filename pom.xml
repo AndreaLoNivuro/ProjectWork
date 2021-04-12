@@ -12,7 +12,7 @@
 	<groupId>it.jac</groupId>
 	<artifactId>SistemiGestionali</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SistemiGestionali</name>
+	<name>ProjectWork</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
