@@ -27,7 +27,6 @@ public class User {
 	
 	@Column(name = "password")
 	private String password;
-	
 
 	@Override
 	public String toString() {

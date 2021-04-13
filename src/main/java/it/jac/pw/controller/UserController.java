@@ -27,7 +27,7 @@ public class UserController {
 			@RequestBody User user
 			) {
 		
-		log.info("Richiesta di create Category.");
+		log.info("Richiesta di create User.");
 
 		return userService.createUser(user);
 
@@ -36,7 +36,7 @@ public class UserController {
 	@GetMapping(path="/findAll")
 	public Response<?> findAllUsers() {
 		
-		log.info("Richiesta di find all Categories.");
+		log.info("Richiesta di find all Users.");
 		
 		return userService.findAllUsers();
 		
@@ -47,7 +47,7 @@ public class UserController {
 			@RequestBody User user
 			) {
 
-		log.info("Richiesta di delete Category.");
+		log.info("Richiesta di delete User.");
 
 		return userService.deleteUser(user);
 		

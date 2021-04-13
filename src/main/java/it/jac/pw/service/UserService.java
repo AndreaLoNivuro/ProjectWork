@@ -22,7 +22,7 @@ public class UserService {
 	@Autowired
 	private UserRepository userRepository;
 
-	public it.jac.pw.dto.Response<User> createUser(User user) {
+	public Response<User> createUser(User user) {
 
 		Response<User> response = new Response<User>();
 
